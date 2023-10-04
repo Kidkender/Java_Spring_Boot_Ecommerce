@@ -1,4 +1,4 @@
-package vn.sparkminds.tutorial.services.dto.request;
+package vn.sparkminds.ecommerce.services.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

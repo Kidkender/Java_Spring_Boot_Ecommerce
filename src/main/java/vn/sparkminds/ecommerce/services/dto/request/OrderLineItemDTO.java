@@ -1,19 +1,18 @@
-package vn.sparkminds.tutorial.services.dto.response;
+package vn.sparkminds.ecommerce.services.dto.request;
+
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductResponse {
+public class OrderLineItemDTO {
     private Long id;
-    private String name;
-    private String description;
+    private String skuCode;
     private BigDecimal price;
+    private Integer quantity;
 }

@@ -1,11 +1,11 @@
-package vn.sparkminds.tutorial.controllers;
+package vn.sparkminds.ecommerce.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import vn.sparkminds.tutorial.services.ProductService;
-import vn.sparkminds.tutorial.services.dto.request.ProductRequest;
-import vn.sparkminds.tutorial.services.dto.response.ProductResponse;
+import vn.sparkminds.ecommerce.services.ProductService;
+import vn.sparkminds.ecommerce.services.dto.request.ProductRequest;
+import vn.sparkminds.ecommerce.services.dto.response.ProductResponse;
 
 import java.util.List;
 

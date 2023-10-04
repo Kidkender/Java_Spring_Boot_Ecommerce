@@ -1,4 +1,4 @@
-package vn.sparkminds.tutorial;
+package vn.sparkminds.ecommerce;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,8 +14,8 @@ import org.testcontainers.containers.MariaDBContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper;
-import vn.sparkminds.tutorial.repositories.ProductRepository;
-import vn.sparkminds.tutorial.services.dto.request.ProductRequest;
+import vn.sparkminds.ecommerce.repositories.ProductRepository;
+import vn.sparkminds.ecommerce.services.dto.request.ProductRequest;
 
 import java.math.BigDecimal;
 

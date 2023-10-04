@@ -1,9 +1,8 @@
-package vn.sparkminds.tutorial.services.dto.request;
+package vn.sparkminds.ecommerce.services.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import vn.sparkminds.tutorial.entities.OrderLineItem;
 
 import java.util.List;
 

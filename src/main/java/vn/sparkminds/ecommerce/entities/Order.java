@@ -1,4 +1,4 @@
-package vn.sparkminds.tutorial.entities;
+package vn.sparkminds.ecommerce.entities;
 
 
 import jakarta.persistence.*;
@@ -19,7 +19,8 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column(name = "orderNumber")
     private String orderNumber;
     @OneToMany(cascade = CascadeType.ALL)
-    private List<OrderLineItem> orderLineItems;
+    private List<OrderLineItem> orderLineItemsList;
 }

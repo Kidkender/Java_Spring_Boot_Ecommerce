@@ -1,4 +1,4 @@
-package vn.sparkminds.tutorial.entities;
+package vn.sparkminds.ecommerce.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
